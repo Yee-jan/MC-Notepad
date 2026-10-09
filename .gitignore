@@ -1,0 +1,32 @@
+# ---------- 构建产物 ----------
+dist/
+build/
+build2/
+*.spec
+.buildenv/
+__pycache__/
+*.pyc
+
+# ---------- 用户数据（自己的书，别传上去）----------
+books/
+_books_旧快照/
+_books_backup_*/
+
+# ---------- 第三方素材：有版权，不随仓库分发 ----------
+# 背景壁纸来自 Wallpaper Engine，作者与授权未确认。
+# 想要壁纸背景的话：自己放一张 bg_760x600.png / bg_1140x900.png 到 assets/img/ 即可，
+# 程序找不到图会自动退回程序化木地板背景。
+assets/img/bg_*.png
+# 开发时对照用的 Minecraft 游戏截图
+assets/img/ref_*.jpg
+assets/img/icon_raw.jpg
+# 备用字体 Monocraft（许可文件未随附，且 5.9MB，去掉也不影响运行）
+assets/fonts/Monocraft.ttc
+
+# ---------- 开发/调试产物 ----------
+_smoke_exe.py
+_diag_close.py
+_testdata_exe/
+# 老的开发截图（画面里带那张壁纸背景，有版权，不分发）
+界面-*.png
+翻页过程.png
